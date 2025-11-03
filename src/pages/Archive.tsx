@@ -25,7 +25,7 @@ const Archive = () => {
           <h1 className="font-serif text-5xl md:text-7xl tracking-wide text-primary-foreground mb-6">
             Female's Edition
           </h1>
-          <p className="text-primary-foreground text-lg max-w-2xl">
+          <p className="font-serif text-primary-foreground text-lg max-w-2xl">
             June 2025 — A collection of 25 numbered pieces exploring the intersection of heritage craftsmanship and contemporary collectible art.
           </p>
         </div>
@@ -37,7 +37,7 @@ const Archive = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-4xl mb-8 tracking-wide">The Genesis Collection</h2>
             
-            <div className="space-y-6 text-lg text-foreground leading-relaxed">
+            <div className="space-y-6 text-lg text-foreground leading-relaxed font-serif">
               <p>
                 The Female's Edition marks THEMOON's inaugural venture into limited-edition couture as collectible assets. Conceived in the tradition of the great ateliers, yet reimagined for a new generation of collectors who understand that true luxury appreciates with time.
               </p>
@@ -94,19 +94,19 @@ const Archive = () => {
             <h3 className="font-serif text-3xl mb-12 tracking-wide">Press & Recognition</h3>
             
             <div className="space-y-8">
-              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground">
+              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground font-serif">
                 "THEMOON redefines luxury for the investment age. These are garments that appreciate, both aesthetically and financially."
-                <footer className="mt-2 text-sm not-italic text-foreground">— Vogue India, July 2025</footer>
+                <footer className="mt-2 text-sm not-italic text-foreground font-serif">— Vogue India, July 2025</footer>
               </blockquote>
               
-              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground">
+              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground font-serif">
                 "A masterclass in provenance and craftsmanship. The Female's Edition sets a new standard for collectible fashion."
-                <footer className="mt-2 text-sm not-italic text-foreground">— Financial Times Luxury, June 2025</footer>
+                <footer className="mt-2 text-sm not-italic text-foreground font-serif">— Financial Times Luxury, June 2025</footer>
               </blockquote>
               
-              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground">
+              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground font-serif">
                 "Where haute couture meets investment art. THEMOON's approach to numbered editions is brilliant."
-                <footer className="mt-2 text-sm not-italic text-foreground">— Harper's Bazaar, August 2025</footer>
+                <footer className="mt-2 text-sm not-italic text-foreground font-serif">— Harper's Bazaar, August 2025</footer>
               </blockquote>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Archive = () => {
             <h3 className="font-serif text-3xl mb-6 tracking-wide">
               Request Archive Access
             </h3>
-            <p className="text-card-foreground leading-relaxed mb-8">
+            <p className="font-serif text-card-foreground leading-relaxed mb-8">
               Full provenance files, lookbooks, and authenticity documentation available to collectors and serious inquiries.
             </p>
             <a href="mailto:inquire@themoon.brand" className="text-accent hover:underline font-serif tracking-wider">

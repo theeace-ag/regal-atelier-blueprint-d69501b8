@@ -25,24 +25,24 @@ const Home = () => {
         </div>
         
         <div className="relative z-10 text-center px-6 animate-fade-in">
-          <h1 className="font-serif text-6xl md:text-8xl lg:text-9xl tracking-[0.2em] text-primary-foreground mb-6">
+          <h1 className="font-brand text-6xl md:text-8xl lg:text-9xl tracking-[0.2em] text-primary-foreground mb-6">
             THEMOON
           </h1>
           <p className="font-serif text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground mb-4">
             Curated Couture • Limited Assets
           </p>
-          <p className="text-primary-foreground max-w-md mx-auto mb-12 leading-relaxed">
+          <p className="font-serif text-primary-foreground max-w-md mx-auto mb-12 leading-relaxed">
             Handmade. Numbered. By invitation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/current-launch">
               <Button variant="hero" size="lg">
-                Explore Current
+                Explore Upcoming
               </Button>
             </Link>
             <Link to="/archive">
               <Button variant="ghost" size="lg" className="text-primary-foreground border border-primary-foreground/20 hover:bg-primary-foreground/10">
-                View Archive
+                Previous Launch
               </Button>
             </Link>
           </div>
@@ -63,18 +63,18 @@ const Home = () => {
               </div>
               <div className="space-y-6">
                 <p className="font-serif text-xs tracking-[0.3em] uppercase text-accent">
-                  Current Launch
+                  Upcoming Launch
                 </p>
                 <h2 className="font-serif text-4xl md:text-5xl tracking-wide">
                   Lunar Vella — Female Edition
                 </h2>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="font-serif text-muted-foreground leading-relaxed">
                   Hand-loomed silk with silver-wash embroidery. Each piece numbered and documented with full provenance certificate. Limited to 25 pieces worldwide.
                 </p>
                 <div className="pt-4">
                   <Link to="/current-launch">
                     <Button variant="royal">
-                      View Collection
+                      View Details
                     </Button>
                   </Link>
                 </div>
@@ -91,7 +91,7 @@ const Home = () => {
             <h2 className="font-serif text-3xl md:text-4xl mb-8 tracking-wide">
               Crafted for Those Who Collect Moments
             </h2>
-            <p className="text-card-foreground leading-relaxed text-lg">
+            <p className="font-serif text-card-foreground leading-relaxed text-lg">
               THEMOON crafts garments that hold stories and futures. Each piece is conceived as a limited asset — crafted in small numbers, documented with provenance, and entrusted to collectors who wear time as a signature.
             </p>
           </div>
@@ -102,8 +102,8 @@ const Home = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-4xl tracking-wide mb-4">Previous Launches</h2>
-            <p className="text-muted-foreground">
+            <h2 className="font-serif text-4xl tracking-wide mb-4">Previous Launch</h2>
+            <p className="font-serif text-muted-foreground">
               Explore the heritage of THEMOON collections
             </p>
           </div>
@@ -145,7 +145,7 @@ const Home = () => {
             <h2 className="font-serif text-4xl md:text-5xl mb-6 tracking-wide">
               Resale Opening December
             </h2>
-            <p className="text-card-foreground leading-relaxed mb-12 text-lg">
+            <p className="font-serif text-card-foreground leading-relaxed mb-12 text-lg">
               RSVP to receive the collector's pass. Selected previously-owned pieces will be released through THEMOON's curated resell program, authenticated and accompanied by full provenance.
             </p>
             <Button 

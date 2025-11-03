@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="bg-primary border-t border-muted/20 py-12">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="flex flex-col md:flex-row items-center gap-6 text-sm text-muted-foreground">
+          <div className="flex flex-col md:flex-row items-center gap-6 text-sm text-muted-foreground font-serif">
             <a 
               href="mailto:inquire@themoon.brand" 
               className="hover:text-accent transition-colors duration-300"

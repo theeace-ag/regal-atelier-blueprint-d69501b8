@@ -25,7 +25,7 @@ const Resell = () => {
             <h1 className="font-serif text-5xl md:text-7xl tracking-wide text-primary-foreground mb-8">
               Resale Opens December
             </h1>
-            <p className="text-xl text-primary-foreground/80 leading-relaxed max-w-2xl mx-auto">
+            <p className="font-serif text-xl text-primary-foreground/80 leading-relaxed max-w-2xl mx-auto">
               Selected previously-owned pieces will be released through THEMOON's curated resell program. Each item is inspected and accompanied by a full provenance packet.
             </p>
           </div>
@@ -51,7 +51,7 @@ const Resell = () => {
             <h2 className="font-serif text-4xl mb-6 tracking-wide">
               Reserve Your Collector's Pass
             </h2>
-            <p className="text-card-foreground leading-relaxed text-lg mb-12">
+            <p className="font-serif text-card-foreground leading-relaxed text-lg mb-12">
               We grant access to a select list each release. RSVP to be among the first notified when the resale program opens.
             </p>
             <Button 
@@ -79,7 +79,7 @@ const Resell = () => {
                   <h3 className="font-serif text-xl tracking-wider uppercase mb-4 text-accent">
                     Authentication
                   </h3>
-                  <p className="text-card-foreground leading-relaxed">
+                  <p className="font-serif text-card-foreground leading-relaxed">
                     Every resale piece undergoes rigorous inspection by THEMOON specialists. We verify serial numbers, assess condition, and confirm provenance documentation before listing.
                   </p>
                 </div>
@@ -90,7 +90,7 @@ const Resell = () => {
                   <h3 className="font-serif text-xl tracking-wider uppercase mb-4 text-accent">
                     Provenance Transfer
                   </h3>
-                  <p className="text-card-foreground leading-relaxed">
+                  <p className="font-serif text-card-foreground leading-relaxed">
                     All transactions include official provenance transfer documentation. New owners receive updated certificates with complete ownership history and authenticity guarantees.
                   </p>
                 </div>
@@ -101,7 +101,7 @@ const Resell = () => {
                   <h3 className="font-serif text-xl tracking-wider uppercase mb-4 text-accent">
                     Curated Selection
                   </h3>
-                  <p className="text-card-foreground leading-relaxed">
+                  <p className="font-serif text-card-foreground leading-relaxed">
                     Only pieces meeting our strict condition standards are approved for resale. Each listing includes detailed condition reports and high-resolution imagery.
                   </p>
                 </div>
@@ -112,7 +112,7 @@ const Resell = () => {
                   <h3 className="font-serif text-xl tracking-wider uppercase mb-4 text-accent">
                     Collector Network
                   </h3>
-                  <p className="text-card-foreground leading-relaxed">
+                  <p className="font-serif text-card-foreground leading-relaxed">
                     Access to resale listings is granted exclusively to registered collectors. This ensures pieces remain within the THEMOON collector community.
                   </p>
                 </div>
@@ -129,7 +129,7 @@ const Resell = () => {
             <h3 className="font-serif text-3xl mb-6 tracking-wide">
               Request Private Viewing
             </h3>
-            <p className="text-card-foreground leading-relaxed mb-8">
+            <p className="font-serif text-card-foreground leading-relaxed mb-8">
               For serious collectors, we offer private appointments to view resale pieces in person at our atelier.
             </p>
             <a 
@@ -170,7 +170,7 @@ const Resell = () => {
                   <p className="text-3xl font-serif text-card-foreground">Included</p>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground text-center mt-6">
+              <p className="font-serif text-sm text-muted-foreground text-center mt-6">
                 All fees include authentication, provenance transfer, and secure shipping.
               </p>
             </div>

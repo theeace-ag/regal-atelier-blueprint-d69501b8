@@ -18,8 +18,8 @@ export const Navigation = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/current-launch", label: "Current Launch" },
-    { path: "/archive", label: "Archive" },
+    { path: "/current-launch", label: "Upcoming Launch" },
+    { path: "/archive", label: "Previous Launch" },
     { path: "/resell", label: "Limited Edition" },
   ];
 
@@ -35,7 +35,7 @@ export const Navigation = () => {
           {/* Wordmark */}
           <Link 
             to="/" 
-            className="font-serif text-2xl tracking-[0.3em] text-primary-foreground hover:text-accent transition-all duration-500"
+            className="font-brand text-2xl tracking-[0.3em] text-primary-foreground hover:text-accent transition-all duration-500"
           >
             THEMOON
           </Link>

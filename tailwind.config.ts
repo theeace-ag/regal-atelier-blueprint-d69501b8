@@ -56,8 +56,9 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
-        sans: ['Inter', 'sans-serif'],
+        brand: ['Gill Sans MT', 'Gill Sans', 'sans-serif'],
+        serif: ['Libre Baskerville', 'serif'],
+        sans: ['Libre Baskerville', 'serif'],
       },
       backgroundImage: {
         'gradient-royal': 'var(--gradient-royal)',

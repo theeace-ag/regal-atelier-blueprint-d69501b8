@@ -10,8 +10,8 @@ All colors MUST be HSL.
   :root {
     /* THEMOON Ultra-Luxury Design System */
     /* Royal Black & Greys */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 4%;
+    --background: 0 0% 4%;
+    --foreground: 0 0% 98%;
     
     --rich-black: 0 0% 4%;
     --charcoal: 0 0% 13%;
@@ -85,7 +85,7 @@ All colors MUST be HSL.
 
   /* Royal Typography */
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     letter-spacing: 0.05em;
   }

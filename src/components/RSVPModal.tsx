@@ -66,7 +66,7 @@ export const RSVPModal = ({ isOpen, onClose }: RSVPModalProps) => {
 
         <div className="p-8 md:p-12">
           <h2 className="font-serif text-3xl mb-2 tracking-wide">Request Collector's Pass</h2>
-          <p className="text-muted-foreground text-sm mb-8">
+          <p className="font-serif text-muted-foreground text-sm mb-8">
             We grant access to a select list each release.
           </p>
 
