@@ -2,8 +2,8 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
-import productDetail from "@/assets/product-detail.jpg";
-import atelierCraft from "@/assets/atelier-craft.jpg";
+import productDetail from "@/assets/priv-launch-1.jpg";
+import atelierCraft from "@/assets/priv-launch-2.jpg";
 
 const CurrentLaunch = () => {
   const handleAddToCart = () => {

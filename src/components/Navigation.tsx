@@ -20,7 +20,6 @@ export const Navigation = () => {
     { path: "/", label: "Home" },
     { path: "/current-launch", label: "Upcoming Launch" },
     { path: "/archive", label: "Previous Launch" },
-    { path: "/resell", label: "Limited Edition" },
   ];
 
   return (
@@ -33,12 +32,17 @@ export const Navigation = () => {
       <div className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           {/* Wordmark */}
-          <Link 
-            to="/" 
-            className="font-brand text-2xl tracking-[0.3em] text-primary-foreground hover:text-accent transition-all duration-500"
-          >
-            THEMOON
-          </Link>
+          <div className="flex flex-col items-center">
+            <Link 
+              to="/" 
+              className="font-brand font-black text-xl tracking-[0.3em] text-primary-foreground hover:text-accent transition-all duration-500"
+            >
+              THEMOON
+            </Link>
+            <span className="font-serif text-xs tracking-[0.45em] text-primary-foreground/80 mt-1">
+              ASTHXURY
+            </span>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-10">

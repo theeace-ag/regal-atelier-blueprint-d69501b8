@@ -1,8 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import archiveHero from "@/assets/archive-hero.jpg";
-import atelierCraft from "@/assets/atelier-craft.jpg";
-import productDetail from "@/assets/product-detail.jpg";
+import archiveHero from "@/assets/priv-launch-3.jpg";
+import atelierCraft from "@/assets/priv-launch-4.jpg.png";
+import productDetail from "@/assets/priv-launch-1.jpg";
 
 const Archive = () => {
   return (
@@ -23,10 +23,10 @@ const Archive = () => {
             Previous Launch
           </p>
           <h1 className="font-serif text-5xl md:text-7xl tracking-wide text-primary-foreground mb-6">
-            Female's Edition
+            THEMOON | Women’s Edition Launch
           </h1>
           <p className="font-serif text-primary-foreground text-lg max-w-2xl">
-            June 2025 — A collection of 25 numbered pieces exploring the intersection of heritage craftsmanship and contemporary collectible art.
+            11/9/2025 — The Gallery Continues
           </p>
         </div>
       </section>
@@ -35,19 +35,34 @@ const Archive = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="font-serif text-4xl mb-8 tracking-wide">The Genesis Collection</h2>
+            <h2 className="font-serif text-4xl mb-8 tracking-wide">THEMOON | Women’s Edition Launch</h2>
             
             <div className="space-y-6 text-lg text-foreground leading-relaxed font-serif">
               <p>
-                The Female's Edition marks THEMOON's inaugural venture into limited-edition couture as collectible assets. Conceived in the tradition of the great ateliers, yet reimagined for a new generation of collectors who understand that true luxury appreciates with time.
+                11/9/2025 — The Gallery Continues
               </p>
-              
               <p>
-                Each of the 25 pieces was hand-crafted over six months in our private atelier. Master artisans employed centuries-old techniques — hand-looming silk from sustainable sources, applying silver-wash embroidery in patterns inspired by lunar phases, and finishing with invisible seams that speak to the highest level of couture construction.
+                From the stillness of lunar shadow to the quiet glow of power, THEMOON unveils a new chapter. The Women’s Edition honors elegance without noise — presence without declaration. A continuation from our previous gallery, this release celebrates silhouettes that speak in silence, yet command the room.
               </p>
-              
               <p>
-                What distinguishes this collection is not merely its scarcity, but its documentation. Every garment comes with a provenance certificate detailing its creation date, materials provenance, artisan signatures, and a unique serial number registered in THEMOON's permanent archive. Owners are invited into a lineage of collectors whose pieces will appreciate as both wearable art and investment assets.
+                Lunar Highneck Tee
+                Minimalism sharpened into authority.
+                Rendered in deep noir, the Lunar Highneck Tee shapes the form with precision and softness. The elevated neckline frames the poise of the wearer; its tailored profile holds strength, subtle yet unmistakable. Built for days that blur into evenings, it is comfort refined into armor.
+                A piece for those who lead quietly and are felt deeply.
+              </p>
+              <p>
+                Noir Élan Dress
+                Fluid confidence, sculpted in midnight.
+                The Noir Élan Dress drapes like a whispered command — soft movement, powerful impression. Its keyhole detail offers a modern edge, while the cascading length glides with timeless elegance. Every line honors feminine force — unhurried, certain, magnetic.
+                A gown for the woman who turns stillness into statement.
+              </p>
+              <p>
+                This edition reflects THEMOON’s creed:
+                Restraint as luxury. Silence as power. Mystery as confidence.
+              </p>
+              <p>
+                A collection for the women who do not ask to be seen —
+                they are noticed by nature.
               </p>
             </div>
           </div>

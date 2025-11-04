@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import CurrentLaunch from "./pages/CurrentLaunch";
 import Archive from "./pages/Archive";
 import Resell from "./pages/Resell";
+import Gallery from "./pages/Gallery";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/current-launch" element={<CurrentLaunch />} />
           <Route path="/archive" element={<Archive />} />
           <Route path="/resell" element={<Resell />} />
+          <Route path="/gallery" element={<Gallery />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

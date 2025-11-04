@@ -5,8 +5,9 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { RSVPModal } from "@/components/RSVPModal";
 import heroMain from "@/assets/hero-main.jpg";
-import productDetail from "@/assets/product-detail.jpg";
-import atelierCraft from "@/assets/atelier-craft.jpg";
+import productDetail from "@/assets/prev-launch-cover.jpg";
+import atelierCraft from "@/assets/prev-launch-cover.jpg";
+import limCover from "@/assets/lim-cover.png";
 
 const Home = () => {
   const [isRSVPOpen, setIsRSVPOpen] = useState(false);
@@ -25,9 +26,12 @@ const Home = () => {
         </div>
         
         <div className="relative z-10 text-center px-6 animate-fade-in">
-          <h1 className="font-brand text-6xl md:text-8xl lg:text-9xl tracking-[0.2em] text-primary-foreground mb-6">
+          <h1 className="font-brand font-black text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] text-primary-foreground mb-4">
             THEMOON
           </h1>
+          <p className="font-serif text-sm md:text-base lg:text-lg tracking-[0.6em] text-primary-foreground/80 mb-8">
+            ASTHXURY
+          </p>
           <p className="font-serif text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground mb-4">
             Curated Couture • Limited Assets
           </p>
@@ -72,9 +76,43 @@ const Home = () => {
                   Hand-loomed silk with silver-wash embroidery. Each piece numbered and documented with full provenance certificate. Limited to 25 pieces worldwide.
                 </p>
                 <div className="pt-4">
-                  <Link to="/current-launch">
+                  <Button variant="royal" disabled>
+                    View Details
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Limited Edition Asset Gallery */}
+      <section className="py-24 bg-background relative texture-overlay">
+        <div className="container mx-auto px-6">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="relative aspect-[3/4] overflow-hidden shadow-elegant">
+                <img
+                  src={limCover}
+                  alt="Limited Edition Asset Gallery"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div className="space-y-6">
+                <p className="font-serif text-xs tracking-[0.3em] uppercase text-accent">
+                  Limited Edition Asset Gallery
+                </p>
+                <h2 className="font-serif text-4xl md:text-5xl tracking-wide">
+                  Explore the Exclusive Collection
+                </h2>
+                <p className="font-serif text-muted-foreground leading-relaxed">
+                  A curated selection of our most exclusive and limited edition pieces. Each item is a work of art, with a unique story and provenance.
+                </p>
+                <div className="pt-4">
+                  <Link to="/gallery">
                     <Button variant="royal">
-                      View Details
+                      View Gallery
                     </Button>
                   </Link>
                 </div>
