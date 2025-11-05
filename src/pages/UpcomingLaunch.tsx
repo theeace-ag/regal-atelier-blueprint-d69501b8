@@ -37,11 +37,7 @@ const UpcomingLaunch = () => {
                     Whispers of the Unknown
                   </h1>
                   <p className="font-serif text-muted-foreground mt-4 mb-4">Coming on Jan 2026</p>
-                  <div className="bg-card p-6 rounded-lg shadow-md text-center border border-muted/20">
-                    <p className="font-serif text-sm uppercase tracking-wider text-muted-foreground">Current Value</p>
-                    <p className="font-serif text-4xl font-bold mt-2 text-primary-foreground">Rs 62,190</p>
-                    <p className="font-serif text-sm mt-2 text-card-foreground">This Month</p>
-                  </div>
+
                   <p className="font-serif text-lg text-muted-foreground leading-relaxed mb-8">
                     A refined reveal is approaching — our most prestigious launch to date. This limited-edition women’s footwear, accented in gold, will debut through an exclusive auditorium showcase, complete with runway presentation and auction access for select guests only. A quiet celebration of rarity, elegance, and timeless craftsmanship.
                   </p>
