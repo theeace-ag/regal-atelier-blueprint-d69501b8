@@ -201,7 +201,7 @@ const Home = () => {
               Limited Edition Asset
             </p>
             <h2 className="font-serif text-4xl md:text-5xl mb-6 tracking-wide">
-              Resale & Purchase — From December
+              Purchase & Resell — From December
             </h2>
             <div className="relative aspect-video overflow-hidden rounded-lg shadow-elegant mb-8">
               <img 
