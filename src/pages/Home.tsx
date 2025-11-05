@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import heroMain from "@/assets/hero-main.jpg";
+import heroMainMob from "@/assets/hero-main-mob.jpg";
 import productDetail from "@/assets/upcoming-cover.png";
 import atelierCraft from "@/assets/prev-launch-cover.jpg";
 import limCover from "@/assets/lim-cover.png";
@@ -21,8 +22,14 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative h-screen overflow-hidden pt-16">
         <div 
-          className="absolute inset-0 bg-cover bg-left scale-125 transition-transform duration-700"
+          className="absolute inset-0 bg-cover bg-left scale-125 transition-transform duration-700 hidden sm:block"
           style={{ backgroundImage: `url(${heroMain})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/50 to-primary" />
+        </div>
+        <div 
+          className="absolute inset-0 bg-cover bg-left scale-125 transition-transform duration-700 block sm:hidden"
+          style={{ backgroundImage: `url(${heroMainMob})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/50 to-primary" />
         </div>

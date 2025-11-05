@@ -38,9 +38,9 @@ const DailyPriceIncrease = () => {
 
   return (
     <div className="bg-card p-6 rounded-lg shadow-md text-center border border-muted/20">
-      <p className="font-serif text-sm uppercase tracking-wider text-muted-foreground">Value Appreciation</p>
-      <p className="font-serif text-5xl font-bold mt-2 text-primary-foreground">+Rs {increase}</p>
-      <p className="font-serif text-sm mt-2 text-card-foreground">Since Initial Launch</p>
+      <p className="font-serif text-sm uppercase tracking-wider text-muted-foreground">Current Value</p>
+      <p className="font-serif text-5xl font-bold mt-2 text-primary-foreground">Rs 62,190</p>
+      <p className="font-serif text-sm mt-2 text-card-foreground">This Month</p>
     </div>
   );
 };
