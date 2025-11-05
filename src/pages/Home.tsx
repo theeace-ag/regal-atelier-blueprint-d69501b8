@@ -35,7 +35,7 @@ const Home = () => {
             Handmade. Numbered. By invitation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/current-launch">
+            <Link to="/upcoming-launch">
               <Button variant="hero" size="lg">
                 Explore Upcoming
               </Button>
@@ -72,9 +72,11 @@ const Home = () => {
                   Two silhouettes forged in silence, touched by gold. A quiet arrival… for those who recognize rarity before the world does.
                 </p>
                 <div className="pt-4">
-                  <Button variant="royal" disabled>
-                    View Details
-                  </Button>
+                  <Link to="/upcoming-launch">
+                    <Button variant="royal">
+                      View Details
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -209,7 +211,7 @@ const Home = () => {
                 variant="royal" 
                 size="lg"
               >
-                Explore Resale Opportunities
+                Explore Resell Opportunities
               </Button>
             </Link>
           </div>

@@ -23,7 +23,7 @@ const Resell = () => {
               Limited Edition Asset
             </p>
             <h1 className="font-serif text-5xl md:text-7xl tracking-wide text-primary-foreground mb-8">
-              Resale & Purchase Opens December
+              Resell & Purchase Opens December
             </h1>
             <p className="font-serif text-xl text-primary-foreground/80 leading-relaxed max-w-2xl mx-auto">
               Selected previously-owned pieces will be released through THEMOON's curated resell program. Each item is inspected and accompanied by a full provenance packet.
@@ -57,7 +57,7 @@ const Resell = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-4xl mb-6 tracking-wide">
-              Prepare for Resale Access
+              Prepare for Resell and Purchase Access
             </h2>
             <p className="font-serif text-card-foreground leading-relaxed text-lg mb-12">
               Be ready when the curated resale and purchase program opens in December. Each piece's value has appreciated and comes with full authentication and provenance documentation.
@@ -71,6 +71,7 @@ const Resell = () => {
             </div>
             <div className="flex justify-center mb-12">
               <DailyPriceIncrease />
+
             </div>
             <p className="font-serif text-card-foreground text-lg mb-8 font-bold">
               Check back in December to explore available pieces and their current market values.

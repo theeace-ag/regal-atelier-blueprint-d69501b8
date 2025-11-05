@@ -106,33 +106,7 @@ const Archive = () => {
 
       <hr className="border-t-2 border-royal-gold/20 my-0" />
 
-      {/* Press & Recognition */}
-      <section className="py-24 bg-royal-black relative texture-overlay">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl mx-auto">
-            <h3 className="font-serif text-3xl mb-12 tracking-wide">Press & Recognition</h3>
-            
-            <div className="space-y-8">
-              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground font-serif">
-                "THEMOON redefines luxury for the investment age. These are garments that appreciate, both aesthetically and financially."
-                <footer className="mt-2 text-sm not-italic text-foreground font-serif">— Vogue India, July 2025</footer>
-              </blockquote>
-              
-              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground font-serif">
-                "A masterclass in provenance and craftsmanship. The Female's Edition sets a new standard for collectible fashion."
-                <footer className="mt-2 text-sm not-italic text-foreground font-serif">— Financial Times Luxury, June 2025</footer>
-              </blockquote>
-              
-              <blockquote className="border-l-2 border-accent pl-6 italic text-lg text-muted-foreground font-serif">
-                "Where haute couture meets investment art. THEMOON's approach to numbered editions is brilliant."
-                <footer className="mt-2 text-sm not-italic text-foreground font-serif">— Harper's Bazaar, August 2025</footer>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <hr className="border-t-2 border-royal-gold/20 my-0" />
 
       {/* Collector Information */}
       <section className="py-24 bg-royal-black-alt relative texture-overlay">
