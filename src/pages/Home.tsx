@@ -7,7 +7,9 @@ import heroMain from "@/assets/hero-main.jpg";
 import productDetail from "@/assets/upcoming-cover.png";
 import atelierCraft from "@/assets/prev-launch-cover.jpg";
 import limCover from "@/assets/lim-cover.png";
+import limBg from "@/assets/lim-bg.jpg";
 import limResell from "@/assets/resell.jpg";
+import prevBgg from "@/assets/prev-bgg.jpg";
 
 const Home = () => {
   const [isRSVPOpen, setIsRSVPOpen] = useState(false);
@@ -49,7 +51,7 @@ const Home = () => {
 
       {/* Current Launch Teaser */}
       <section className="py-24 bg-royal-black relative texture-overlay">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative aspect-[3/4] overflow-hidden shadow-elegant">
@@ -84,7 +86,11 @@ const Home = () => {
 
       {/* Limited Edition Asset Gallery */}
       <section className="py-24 bg-royal-black-alt relative texture-overlay">
-        <div className="container mx-auto px-6">
+        <div
+          className="absolute inset-0 bg-cover bg-center z-0"
+          style={{ backgroundImage: `url(${limBg})` }}
+        />
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative aspect-[3/4] overflow-hidden shadow-elegant">
@@ -121,7 +127,7 @@ const Home = () => {
 
       {/* Brand Manifesto */}
       <section className="py-24 bg-royal-black relative texture-overlay">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-3xl md:text-4xl mb-8 tracking-wide">
               Crafted for Those Who Collect Moments
@@ -136,8 +142,8 @@ const Home = () => {
       <hr className="border-t-2 border-royal-gold/20 my-0" />
 
       {/* Archive Preview */}
-      <section className="py-24 bg-royal-black-alt relative texture-overlay">
-        <div className="container mx-auto px-6">
+      <section className="py-24 bg-zinc-950 relative">
+        <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl tracking-wide mb-4">Previous Launch</h2>
             <p className="font-serif text-muted-foreground">
@@ -176,7 +182,11 @@ const Home = () => {
 
       {/* Resell Teaser */}
       <section className="py-24 bg-royal-black relative texture-overlay">
-        <div className="container mx-auto px-6">
+        <div
+          className="absolute inset-0 bg-cover bg-center z-0"
+          style={{ backgroundImage: `url(${limBg})` }}
+        />
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-serif text-xs tracking-[0.3em] uppercase text-accent mb-6">
               Limited Edition Asset

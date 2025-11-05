@@ -18,7 +18,6 @@ export const Navigation = () => {
 
   const navLinks = [
     { path: "/", label: "Home" },
-    { path: "/current-launch", label: "Upcoming Launch" },
     { path: "/archive", label: "Previous Launch" },
     { path: "/resell", label: "Limited Edition" },
   ];

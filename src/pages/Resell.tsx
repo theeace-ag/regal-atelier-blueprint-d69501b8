@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { CountdownTimer } from "@/components/CountdownTimer";
 import DailyPriceIncrease from "@/components/DailyPriceIncrease";
 import resellImage from "@/assets/resell.jpg";
+import limBg from "@/assets/lim-bg.jpg";
 
 const Resell = () => {
   // Set target date to December 1, 2025
@@ -35,7 +36,11 @@ const Resell = () => {
 
       {/* Countdown */}
       <section className="py-24 bg-royal-black-alt relative texture-overlay">
-        <div className="container mx-auto px-6">
+        <div
+          className="absolute inset-0 bg-cover bg-center z-0"
+          style={{ backgroundImage: `url(${limBg})` }}
+        />
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="font-serif text-3xl text-center mb-12 tracking-wide">
               Opening In
@@ -159,7 +164,11 @@ const Resell = () => {
 
       {/* Commission Information */}
       <section className="py-16 bg-royal-black-alt relative texture-overlay border-t border-muted/20">
-        <div className="container mx-auto px-6">
+        <div
+          className="absolute inset-0 bg-cover bg-center z-0 transform rotate-180"
+          style={{ backgroundImage: `url(${limBg})` }}
+        />
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto">
             <h3 className="font-serif text-2xl mb-8 tracking-wide text-center">
               Transparent Pricing
