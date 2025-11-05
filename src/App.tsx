@@ -8,6 +8,8 @@ import CurrentLaunch from "./pages/CurrentLaunch";
 import Archive from "./pages/Archive";
 import Resell from "./pages/Resell";
 import Gallery from "./pages/Gallery";
+import TermsOfService from "./pages/TermsOfService";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +26,8 @@ const App = () => (
           <Route path="/archive" element={<Archive />} />
           <Route path="/resell" element={<Resell />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

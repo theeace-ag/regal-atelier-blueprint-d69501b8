@@ -5,24 +5,24 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex flex-col md:flex-row items-center gap-6 text-sm text-muted-foreground font-serif">
             <a 
-              href="mailto:inquire@themoon.brand" 
+              href="mailto:team@theeace-ag.com" 
               className="hover:text-accent transition-colors duration-300"
             >
-              inquire@themoon.brand
+              team@theeace-ag.com
             </a>
             <span className="hidden md:block">•</span>
             <a 
-              href="#" 
+              href="/terms-of-service" 
               className="hover:text-accent transition-colors duration-300"
             >
-              Terms
+              Terms of Service
             </a>
             <span className="hidden md:block">•</span>
             <a 
-              href="#" 
+              href="/privacy-policy" 
               className="hover:text-accent transition-colors duration-300"
             >
-              Privacy
+              Privacy Policy
             </a>
           </div>
           

@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { RSVPModal } from "@/components/RSVPModal";
 import heroMain from "@/assets/hero-main.jpg";
-import productDetail from "@/assets/prev-launch-cover.jpg";
+import productDetail from "@/assets/upcoming-cover.png";
 import atelierCraft from "@/assets/prev-launch-cover.jpg";
 import limCover from "@/assets/lim-cover.png";
+import limResell from "@/assets/resell.jpg";
 
 const Home = () => {
   const [isRSVPOpen, setIsRSVPOpen] = useState(false);
@@ -17,21 +17,15 @@ const Home = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen overflow-hidden pt-16">
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-left scale-125 transition-transform duration-700"
           style={{ backgroundImage: `url(${heroMain})` }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-primary/70 via-primary/50 to-primary" />
         </div>
         
-        <div className="relative z-10 text-center px-6 animate-fade-in">
-          <h1 className="font-brand font-black text-5xl md:text-7xl lg:text-8xl tracking-[0.2em] text-primary-foreground mb-4">
-            THEMOON
-          </h1>
-          <p className="font-serif text-sm md:text-base lg:text-lg tracking-[0.6em] text-primary-foreground/80 mb-8">
-            ASTHXURY
-          </p>
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-10 text-center px-6 animate-fade-in">
           <p className="font-serif text-sm md:text-base tracking-[0.3em] uppercase text-muted-foreground mb-4">
             Curated Couture • Limited Assets
           </p>
@@ -54,7 +48,7 @@ const Home = () => {
       </section>
 
       {/* Current Launch Teaser */}
-      <section className="py-24 bg-background relative texture-overlay">
+      <section className="py-24 bg-royal-black relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -62,18 +56,18 @@ const Home = () => {
                 <img 
                   src={productDetail} 
                   alt="Current Collection" 
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-700 blur-sm"
                 />
               </div>
               <div className="space-y-6">
                 <p className="font-serif text-xs tracking-[0.3em] uppercase text-accent">
-                  Upcoming Launch
+                  Upcoming Limited Edition Launch
                 </p>
                 <h2 className="font-serif text-4xl md:text-5xl tracking-wide">
-                  Lunar Vella — Female Edition
+                  Whispers of the Unknown
                 </h2>
                 <p className="font-serif text-muted-foreground leading-relaxed">
-                  Hand-loomed silk with silver-wash embroidery. Each piece numbered and documented with full provenance certificate. Limited to 25 pieces worldwide.
+                  Two silhouettes forged in silence, touched by gold. A quiet arrival… for those who recognize rarity before the world does.
                 </p>
                 <div className="pt-4">
                   <Button variant="royal" disabled>
@@ -86,9 +80,10 @@ const Home = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
 
       {/* Limited Edition Asset Gallery */}
-      <section className="py-24 bg-background relative texture-overlay">
+      <section className="py-24 bg-royal-black-alt relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -122,8 +117,10 @@ const Home = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
+
       {/* Brand Manifesto */}
-      <section className="py-24 bg-card">
+      <section className="py-24 bg-royal-black relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-serif text-3xl md:text-4xl mb-8 tracking-wide">
@@ -136,8 +133,10 @@ const Home = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
+
       {/* Archive Preview */}
-      <section className="py-24 bg-background">
+      <section className="py-24 bg-royal-black-alt relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="font-serif text-4xl tracking-wide mb-4">Previous Launch</h2>
@@ -173,32 +172,41 @@ const Home = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
+
       {/* Resell Teaser */}
-      <section className="py-24 bg-card">
+      <section className="py-24 bg-royal-black relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <p className="font-serif text-xs tracking-[0.3em] uppercase text-accent mb-6">
               Limited Edition Asset
             </p>
             <h2 className="font-serif text-4xl md:text-5xl mb-6 tracking-wide">
-              Resale Opening December
+              Resale & Purchase — From December
             </h2>
+            <div className="relative aspect-video overflow-hidden rounded-lg shadow-elegant mb-8">
+              <img 
+                src={limResell} 
+                alt="Limited Edition Resell Value" 
+                className="w-full h-full object-cover"
+              />
+            </div>
             <p className="font-serif text-card-foreground leading-relaxed mb-12 text-lg">
-              RSVP to receive the collector's pass. Selected previously-owned pieces will be released through THEMOON's curated resell program, authenticated and accompanied by full provenance.
+              Each piece from THEMOON's Limited Editions collection is not merely an item of clothing, but a tangible asset whose value appreciates over time. From December, collectors will have the exclusive opportunity to engage in a curated resale and purchase program. This initiative ensures the authenticity and provenance of each piece, allowing its legacy to grow and its worth to be recognized by a discerning community. Invest in artistry, secure your legacy.
             </p>
-            <Button 
-              variant="royal" 
-              size="lg"
-              onClick={() => setIsRSVPOpen(true)}
-            >
-              RSVP for December
-            </Button>
+            <Link to="/resell">
+              <Button 
+                variant="royal" 
+                size="lg"
+              >
+                Explore Resale Opportunities
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
 
       <Footer />
-      <RSVPModal isOpen={isRSVPOpen} onClose={() => setIsRSVPOpen(false)} />
     </div>
   );
 };

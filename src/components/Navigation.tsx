@@ -20,6 +20,7 @@ export const Navigation = () => {
     { path: "/", label: "Home" },
     { path: "/current-launch", label: "Upcoming Launch" },
     { path: "/archive", label: "Previous Launch" },
+    { path: "/resell", label: "Limited Edition" },
   ];
 
   return (

@@ -32,7 +32,7 @@ const Archive = () => {
       </section>
 
       {/* Editorial Essay */}
-      <section className="py-24 bg-background">
+      <section className="py-24 bg-royal-black relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-4xl mb-8 tracking-wide">THEMOON | Women’s Edition Launch</h2>
@@ -69,8 +69,10 @@ const Archive = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
+
       {/* Gallery */}
-      <section className="py-16 bg-card">
+      <section className="py-16 bg-royal-black-alt relative texture-overlay">
         <div className="container mx-auto px-6">
           <h3 className="font-serif text-3xl mb-12 text-center tracking-wide">
             Collection Gallery
@@ -102,8 +104,10 @@ const Archive = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
+
       {/* Press & Recognition */}
-      <section className="py-24 bg-background">
+      <section className="py-24 bg-royal-black relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h3 className="font-serif text-3xl mb-12 tracking-wide">Press & Recognition</h3>
@@ -128,8 +132,10 @@ const Archive = () => {
         </div>
       </section>
 
+      <hr className="border-t-2 border-royal-gold/20 my-0" />
+
       {/* Collector Information */}
-      <section className="py-24 bg-card">
+      <section className="py-24 bg-royal-black-alt relative texture-overlay">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="font-serif text-3xl mb-6 tracking-wide">
@@ -138,8 +144,8 @@ const Archive = () => {
             <p className="font-serif text-card-foreground leading-relaxed mb-8">
               Full provenance files, lookbooks, and authenticity documentation available to collectors and serious inquiries.
             </p>
-            <a href="mailto:inquire@themoon.brand" className="text-accent hover:underline font-serif tracking-wider">
-              inquire@themoon.brand
+            <a href="mailto:team@theeace-ag.com" className="text-accent hover:underline font-serif tracking-wider">
+              team@theeace-ag.com
             </a>
           </div>
         </div>

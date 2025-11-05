@@ -53,6 +53,7 @@ export default {
           grey: "hsl(var(--mid-grey))",
           light: "hsl(var(--light-grey))",
           gold: "hsl(var(--royal-gold))",
+          "black-alt": "hsl(var(--rich-black-alt))",
         },
       },
       fontFamily: {

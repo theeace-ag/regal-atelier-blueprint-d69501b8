@@ -10,16 +10,17 @@ All colors MUST be HSL.
   :root {
     /* THEMOON Ultra-Luxury Design System */
     /* Royal Black & Greys */
-    --background: 0 0% 4%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 98%;
     
     --rich-black: 0 0% 4%;
+    --rich-black-alt: 0 0% 8%;
     --charcoal: 0 0% 13%;
     --mid-grey: 0 0% 44%;
     --light-grey: 0 0% 65%;
     --soft-white: 0 0% 98%;
 
-    --card: 0 0% 13%;
+    --card: 0 0% 0%;
     --card-foreground: 0 0% 98%;
 
     --popover: 0 0% 13%;
