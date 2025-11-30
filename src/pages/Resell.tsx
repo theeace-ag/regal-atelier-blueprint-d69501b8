@@ -63,18 +63,31 @@ const Resell = () => {
               Be ready when the curated resale and purchase program opens in December. Each piece's value has appreciated and comes with full authentication and provenance documentation.
             </p>
             <div className="relative aspect-[3/4] overflow-hidden rounded-lg shadow-elegant mb-8">
-              <img 
-                src={resellImage} 
-                alt="Resale Value Appreciation" 
+              <img
+                src={resellImage}
+                alt="Resale Value Appreciation"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="flex justify-center mb-12">
+            <div className="flex justify-center mb-8">
               <DailyPriceIncrease />
+            </div>
 
+            <div className="flex justify-center items-center gap-6 mb-12">
+              <Button asChild variant="royal" className="min-w-[140px]">
+                <a href="https://tally.so/r/9qN95V" target="_blank" rel="noopener noreferrer">
+                  Resell
+                </a>
+              </Button>
+              <span className="font-serif text-muted-foreground italic">or</span>
+              <Button asChild variant="royal" className="min-w-[140px]">
+                <a href="https://tally.so/r/7RXLV9" target="_blank" rel="noopener noreferrer">
+                  Purchase
+                </a>
+              </Button>
             </div>
             <p className="font-serif text-card-foreground text-lg mb-8 font-bold">
-              Check back in December to explore available pieces and their current market values.
+              Resell Window Now Open — explore exclusive pieces available this season and discover their current market value.
             </p>
           </div>
         </div>
@@ -89,7 +102,7 @@ const Resell = () => {
             <h2 className="font-serif text-4xl mb-12 tracking-wide text-center">
               The Resale Process
             </h2>
-            
+
             <div className="grid md:grid-cols-2 gap-12">
               <div className="space-y-4">
                 <div className="bg-card p-8 border border-muted/20 shadow-elegant">
@@ -151,8 +164,8 @@ const Resell = () => {
             <p className="font-serif text-card-foreground leading-relaxed mb-8">
               For serious collectors, we offer private appointments to view resale pieces in person at our atelier.
             </p>
-            <a 
-              href="mailto:team@theeace-ag.com?subject=Private Viewing Request" 
+            <a
+              href="mailto:team@theeace-ag.com?subject=Private Viewing Request"
               className="text-accent hover:underline font-serif tracking-wider text-lg"
             >
               Schedule Appointment
